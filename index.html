@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/7a633eabea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="calculator">
+        <div class="container">
+            <div class="main">
+                <div class="item_one">
+                    <input type="text" value="" readonly id="input">
+                    <input type="text" value="" readonly id="output">
+                </div>
+                <div class="item_two">
+                    <table>
+                        <tr>
+                            <td><button id="btn_ac">AC</button></td>
+                            <td><button id="btn_cross"><i class="fa-regular fa-circle-xmark" style="font-size: 30px;"></i></button></td>
+                            <td><button id="btn_division">/</button></td>
+                            <td><button id="btn_multiplication">*</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="btn_7">7</button></td>
+                            <td><button id="btn_8">8</button></td>
+                            <td><button id="btn_9">9</button></td>
+                            <td><button id="btn_substraction">-</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="btn_4">4</button></td>
+                            <td><button id="btn_5">5</button></td>
+                            <td><button id="btn_6">6</button></td>
+                            <td rowspan="2" id="btn_plus"><button class="plus">+</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="btn_1">1</button></td>
+                            <td><button id="btn_2">2</button></td>
+                            <td><button id="btn_3">3</button></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button id="btn_0" class="zero">0</button></td>
+                            <td><button class="dot" id="btn_dot"><i class="fa-solid fa-circle"></i></button></td>
+                            <td rowspan="2"><button class="equal" id="btn_equal">=</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>

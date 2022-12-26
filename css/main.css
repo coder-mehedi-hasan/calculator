@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+#calculator .main{
+    margin: 50px auto;
+    background-color: #00001f;
+    padding: 45px 25px;
+    width: 450px;
+    border-radius: 16px;
+}
+#calculator .main .item_one input{
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+    margin: 10px 0px 5px 0px;
+    font-size: 25px;
+    background-color: #01012500;
+    color: #F4A950;
+    font-weight: 500;
+    font-style: normal;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+#calculator .main .item_one input:last-child{
+    font-size: 45px;
+}
+
+#calculator .main .item_two table{
+    width: 100%;
+}
+
+#calculator .main .item_two table td button{
+    padding: 15px 0px;
+    background-color: #303136;
+    margin: 11px auto;
+    font-size: 35px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F4A950;
+}
+
+
+#calculator .main .item_two table td .dot i{
+    font-size: 10px;
+    padding: 12px 0px;
+    color: #F4A950;
+}
+
+#calculator .main .item_two table td .plus{
+    padding: 50px 0px;
+}
+#calculator .main .item_two table td .zero{
+    padding-left: 72px;
+    padding-right: 71px;
+}
+#calculator .main .item_two table td .equal{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
